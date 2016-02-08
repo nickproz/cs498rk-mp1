@@ -1,0 +1,31 @@
+/* $about-me-color: 41,62,106;
+$experience-color: 146, 220, 224;
+$skills-color: 119, 186, 152;
+$background-opacity: 0.7; */
+
+@mixin about-me-color()
+{
+	border-top:5px solid rgba(41,62,106,1);
+	background-color:rgba(41,62,106,0.7);
+	background-blend-mode: multiply;
+}
+
+@mixin experience-color()
+{
+	border-top:5px solid #60ccd2;
+	background-color:rgba(146, 220, 224,0.7);
+	background-blend-mode: multiply;
+}
+
+@mixin skills-color()
+{
+	border-top:5px solid rgba(119, 186, 152,1);
+	background-color:rgba(119, 186, 152,0.7);
+	background-blend-mode: multiply;
+}
+
+@mixin center() 
+{
+  margin: 0 auto;
+  text-align:center;
+}

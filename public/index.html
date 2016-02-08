@@ -1,20 +1,291 @@
 <!doctype html>
 <html lang="en">
 <head>
+
   <meta charset="UTF-8">
-  <title>MP1 Starter</title>
+  
+  <title>Nick Prozorovsky</title>
+  <!-- <link rel="shortcut icon" href="media/me.ico" /> -->
+  <link rel="shortcut icon" href="media/crest.ico" />
+  
   <link rel="stylesheet" href="css/styles.css">
+  
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  
 </head>
+
 <body>
-  <h1>Hello World!</h1>
-  <div class="test"> My name is Anthony.</div>
-  <div class="cat">
-    <img src="./media/cat.jpg" alt="Cat">
-  </div>
 
   <script src="lib/jquery-2.1.3.min/index.js"></script>
   <script src="js/script.js"></script>
   <script src="http://localhost:35729/livereload.js"></script>
+  
+  <!-- HEADER -->
+  <div class="header">
+	
+	<div>
+		<span style="vertical-align: middle; ">Nicholas</span>
+		<img src="media/me.png" style="vertical-align: middle; margin:50px;"/>
+		<span style="vertical-align: middle;">Prozorovsky</span>
+	</div>
+	
+  </div>
+  
+  <!-- NAVIGATION -->
+  <div class="navigation">
+	  <ul>
+		<!-- <li class="nav0 active">
+			<a href="#top">Top</a>
+		</li> -->
+		<li class="nav1">
+			<a href="#gallery">About Me</a>
+		</li>
+		<li class="nav2">
+			<a href="#experience">Experience</a>
+		</li>
+		<li class="nav3">
+			<a href="#skills">Skills</a>
+		</li>
+		<!-- <li class="nav4">
+			<a href="#top">Bottom</a>
+		</li> -->
+	  </ul>
+  </div>
+  
+  <!-- CAROUSEL/ABOUT ME -->
+  <div class="carouselContainer">
+	  <div class="carousel">
+		
+		<div class="car2">
+			<div class="car2Image">
+				<a href="#"> <i class="fa fa-arrow-circle-left icon vert left"></i> </a>
+			</div>
+			<div class="car2Text">
+				<h1> About Me </h1>
+				<p> I am a computer engineer pursuing a B.S. degree at the University of Illinois with a focus in software and web development. When I'm not behind a screen, I enjoy snowboarding, hiking, and playing ultimate frisbee.</p>
+			</div>
+			<div class="car2Icon">
+				<a href="#"> <i class="fa fa-arrow-circle-right icon vert right"></i> </a>
+			</div>
+		</div>
+		
+		<div class="car0 hidden"> 
+			<div> 
+				<a href="#"> <i class="fa fa-arrow-circle-left icon vert left"></i> </a>
+				<a href="#"> <i class="fa fa-arrow-circle-right icon vert right"></i> </a>
+			</div>
+		</div>
+		
+		<div class="car1 hidden"> 
+			<div> 
+				<a href="#"> <i class="fa fa-arrow-circle-left icon vert left"></i> </a>
+				<a href="#"> <i class="fa fa-arrow-circle-right icon vert right"></i> </a>
+			</div>
+		</div>
+	  
+	  </div>
+  </div>
+
+  <!-- MULTI-COLUMNS/EXPERIENCE -->
+  <div class="experienceContainer">
+  
+	  <div class="experience">
+	  
+		  <div class="toprow">
+	
+			<a href="#illinimedia">
+				<div class="box0"> 
+					<img src="media/logos/illinimedialogo.png" />
+				</div>
+			</a>
+			
+			<a href="#argonne">
+				<div class="box1"> 
+					<img src="media/logos/argonnelogo.png" />
+				</div>
+			</a>
+			
+			<a href="#ultimate">
+				<div class="box2"> 
+					<img src="media/logos/frisbeelogo.jpg" />
+				</div>
+			</a>
+			
+		  </div>
+		  
+		  <div class="botrow">
+		  
+			<a href="#housing">
+				<div class="box3"> 
+					<img src="media/logos/housinglogo.png" />
+				</div>
+			</a>
+			
+			<a href="#gif">
+				<div class="box4"> 
+					<h2 class="vert">nick.prozorovsky@gmail.com</h2>
+					<h2 class="vert">(630)200-8105</h2>
+				</div>
+			</a>
+			
+			<a href="#uiuc">
+				<div class="box5"> 
+					<img src="media/logos/illinoislogo.png" />
+				</div>
+			</a>
+			
+		  </div>
+	  </div> 
+  </div>
+  
+  <!-- SKILLS -->
+  <div class="skillsContainer">
+  
+	  <div class="skills">
+	  
+		<div class="progress">
+		
+		  <div class="progressBar">
+			<h4>HTML5/CSS3</h4>
+			<div class="progressBarContainer">
+			  <div class="progressBarFilled value80"></div>
+			</div>
+		  </div>
+		  
+		  <div class="progressBar">
+			<h4>Javascript/Jquery</h4>
+			<div class="progressBarContainer">
+			  <div class="progressBarFilled value70"></div>
+			</div>
+		  </div>
+		  
+		  <div class="progressBar">
+			<h4>Python</h4>
+			<div class="progressBarContainer">
+			  <div class="progressBarFilled value70"></div>
+			</div>
+		  </div>
+		  
+		  <div class="progressBar">
+			<h4>C/C++</h4>
+			<div class="progressBarContainer">
+			  <div class="progressBarFilled value60"></div>
+			</div>
+		  </div>
+		  
+		  <div class="progressBar">
+			<h4>Java</h4>
+			<div class="progressBarContainer">
+			  <div class="progressBarFilled value40"></div>
+			</div>
+		  </div>
+		  
+		  <div class="progressBar">
+			<h4>Photoshop</h4>
+			<div class="progressBarContainer">
+			  <div class="progressBarFilled value20"></div>
+			</div>
+		  </div>
+		  
+		  <div class="progressBar">
+			<h4>Dancing</h4>
+			<div class="progressBarContainer">
+			  <div class="progressBarFilled value30"></div>
+			</div>
+		  </div>
+		  
+		  <div class="scale">
+			<h4> | <br> Needs  <br> Work </h4>
+			<h4> | <br> Getting <br> There </h4>
+			<h4> | <br> Expert <br> &zwnj;</h4>
+		  </div>
+		  
+		</div>
+	  </div>
+  </div>
+  
+  <!-- MODALS -->
+  <div id="argonne" class="modal">
+	<div>
+		<a href="#close" title="close" class="close">X</a>
+		<h2>University of Chicago at Argonne National Laboratory</h2>
+		<h3>Computation Institute Intern</h3>
+		<h4>Lemont, IL | June 2013 - Sept. 2013 </h4>
+		<ul>
+		  <li>Enhanced back-end processes and coded genomic analysis programs for Globus Genomics</li>
+		  <li>Created new dynamic computer program/tool adapted by group</li>
+		  <li>Wrote research paper with Ian Foster which was accepted at WORKS Supercomputing Conference/Workshop</li>
+		</ul>
+	</div>
+  </div>
+  
+  <div id="illinimedia" class="modal">
+	<div>
+		<a href="#close" title="close" class="close">X</a>
+		<h2>Illini Media Company</h2>
+		<h3>IT Technician</h3>
+		<h4>Champaign, IL | Oct. 2014 - Oct. 2015 </h4>
+		<ul>
+		  <li>Improved and monitored back-end server procedures</li>
+		  <li>Provided support for employees with technology-related issues</li>
+		</ul>
+	</div>
+  </div>
+  
+  <div id="uiuc" class="modal">
+	<div>
+		<a href="#close" title="close" class="close">X</a>
+		<h2>University of Illinois</h2>
+		<h3>ECE 220 Grader/Lab Assistant</h3>
+		<h4>Champaign, IL | Jan. 2015 - Present </h4>
+		<ul>
+		  <li>Analyze student code for accuracy and efficiency</li>
+		  <li>Hold office hours to aid students with homework and machine problems</li>
+		  <li>Offer assistance to students during designated lab sections and office hours</li>
+		</ul>
+	</div>
+  </div>
+  
+  <div id="housing" class="modal">
+	<div>
+		<a href="#close" title="close" class="close">X</a>
+		<h2>University of Illinois Housing</h2>
+		<h3>Desk Clerk</h3>
+		<h4>Champaign, IL | Aug. 2013 - Present </h4>
+		<ul>
+		  <li>Assist students to create best possible living experience</li>
+		  <li>Manage building security, handle mail, and administer tours to prospective students</li>
+		</ul>
+	</div>
+  </div>
+  
+  <div id="ultimate" class="modal">
+	<div>
+		<a href="#close" title="close" class="close">X</a>
+		<h2>Ultimate Frisbee Varsity Club</h2>
+		<h3>Captain</h3>
+		<h4>Champaign, IL | May 2014 - Present </h4>
+		<ul>
+		  <li>Captain of the varsity team and entire club (150+)</li>
+		  <li>Built the club website from scratch, maintain it to keep it up-to-date (illinoisultimate.com)</li>
+		  <li>Generate practice plans, organize tournaments, coordinate events</li>
+		  <li>Be a leader for the team on and off the field, set an example for the entire club</li>
+		</ul>
+	</div>
+  </div>
+  
+  <div id="gif" class="modal">
+	<div>
+		<a href="#close" title="close" class="close">X</a>
+		<video class="vid" src="media/frisbee.mp4" loop="loop" autoplay="autoplay"/>
+	</div>
+  </div>
+
+  <div class="footer"> 
+	<a href="https://www.facebook.com/prozorovsky"> <i style="color:white" class="fa fa-facebook-square icon vert"></i> </a>
+	<a href="https://twitter.com/nickproz"> <i style="color:white" class="fa fa-twitter-square icon vert"></i> </a>
+	<a href="https://www.linkedin.com/in/nicholas-prozorovsky-367b4b90"> <i style="color:white" class="fa fa-linkedin-square icon vert"></i> </a>
+  </div>
+  
 </body>
 </html>
