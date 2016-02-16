@@ -1,0 +1,36 @@
+TO DO
+	
+DONE?
+
+	
+DONE
+	2. sticky navbar
+	4. navbar resizing
+	6. carousel
+	7. multi-column layout
+	3. position indicator
+	5. smooth scrolling
+	14. social media icons
+	11. video embedded
+		10. modal windows
+	9. background image (fixed)
+	1. layout
+		-single page
+		-header
+		-footer
+	13. scalable vector (fontawesome)
+	15. (ec) original favicon
+	8. centering
+		-all content horizontally centered
+		-one vertically centered item			-Arrows good enough?
+		
+	12. CSS3 animations (fade in/out)			-Carousel fade in/out okay?
+	
+	css -> SASS
+	push to GIT
+	verify on server
+		
+SOURCES
+
+http://www.w3schools.com/
+http://www.webdesignerdepot.com/2012/10/creating-a-modal-window-with-html5-and-css3/

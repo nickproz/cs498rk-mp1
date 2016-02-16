@@ -1,6 +1,10 @@
 $(document).ready(function() {
 	
 $(this).scrollTop(0);
+//var offsetz = 61.6;
+//var offsetz = 63.2;
+//var offsetz = 57;
+var offsetz = $(".navigation").height() * 0.8;
 
 /* NAVBAR SHRINK */
 var shrink = false;
@@ -27,18 +31,18 @@ $('.navigation li').click(function() {
 
 	if($(this).hasClass('nav1')) {
 		$('html, body').animate({
-			 scrollTop: $(".carouselContainer").offset().top - 62
+			 scrollTop: $(".carouselContainer").offset().top - offsetz
 			/* scrollTop: 0 */
 		}, 1000);
 	}
 	if($(this).hasClass('nav2')) {
 		$('html, body').animate({
-			scrollTop: $(".experienceContainer").offset().top - 62
+			scrollTop: $(".experienceContainer").offset().top - offsetz
 		}, 1000);
 	}
 	if($(this).hasClass('nav3')) {
 		$('html, body').animate({
-			scrollTop: $(".skillsContainer").offset().top - 62
+			scrollTop: $(".skillsContainer").offset().top - offsetz
 		}, 1000);
 	}
 });
@@ -59,13 +63,13 @@ $('.navigation a').mouseleave(function() {
 
 /* SCROLL NAVBAR UPDATE */
 $(window).scroll(function(){
-	
+
 	var nav1 = $(".carouselContainer").offset().top;
 	var nav2 = $(".experienceContainer").offset().top;
 	var nav3 = $(".skillsContainer").offset().top;
-	var scrollTop = $(window).scrollTop() + 62;
+	var scrollTop = $(window).scrollTop() + offsetz;
 	
-	if(scrollTop - 62 + $(window).height() == $(document).height()) {
+	if(scrollTop - offsetz + $(window).height() == $(document).height()) {
 		$('.navigation li').removeClass('active');
 		$('.nav3').addClass('active');
 	}
